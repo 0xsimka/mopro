@@ -5,6 +5,8 @@ use anyhow::Result;
 use prover::{CircomProof, ProofLib};
 use std::collections::HashMap;
 
+uniffi::setup_scaffolding!();
+
 #[cfg(feature = "rustwitness")]
 pub use rust_witness::*;
 use witness::WitnessFn;

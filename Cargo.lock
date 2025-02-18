@@ -727,6 +727,7 @@ dependencies = [
  "rayon",
  "rust-witness",
  "serde_json",
+ "uniffi",
  "uuid",
  "witnesscalc-adapter",
 ]
